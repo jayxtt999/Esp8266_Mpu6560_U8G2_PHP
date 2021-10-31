@@ -1,0 +1,19 @@
+{
+    "type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@gitlab.niaoyun.com:niaoyun_php/net.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        ]
+    },
+    "require": {
+        "workerman/workerman": "dev-master",
+        "workerman/crontab": "^1.0",
+        "workerman/globaldata": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
