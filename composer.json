@@ -1,11 +1,5 @@
 {
     "type": "project",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@gitlab.niaoyun.com:niaoyun_php/net.git"
-        }
-    ],
     "autoload": {
         "classmap": [
         ]
