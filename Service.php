@@ -12,7 +12,7 @@ class Service
         global $global;
         $hi = (int)date('Hi');
 
-
+        //没开盘就没必要拉取了
         if(($hi>900 && $hi<1130) || ($hi>1300 && $hi<1500)){
             $global->rest = 0;
         }else{
